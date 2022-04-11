@@ -27,13 +27,16 @@ import {expect} from "chai";
 describe("validation with chai",function(){
 
     browser.url("http://www.flipkart.com");
-
     it("getting title",()=>{
-
         const title=browser.getTitle();
-
         expect(title).to.equal("Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!");
+    });
 
+    it("getting text", ()=>{
+        const text =browser.should("have.text","Login")
+        expect(text).to.equal("Login")
+        const text1 =browser.should("have.text","Get access to your Orders, Wishlist and Recommendations")
+        expect(text1).to.equal("Get access to your Orders, Wishlist and Recommendations")
     });
 
 });
