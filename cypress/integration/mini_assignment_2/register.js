@@ -28,7 +28,7 @@ describe('Validating the site' , () => {
             const cityText = ele.text()
             if (cityText.includes('Australia'))
             {
-                cy.get('ul[class*="select2-results__option"] > li').eq(index).click()
+                cy.get('ul[class*="select2-results__option"] > li').eq(index).click({force:true})
             }
         })
 

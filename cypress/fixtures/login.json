@@ -1,0 +1,16 @@
+{
+    "validusername" : "bunny",
+    "validpassword" : "bunny123",
+    "invalidusername" : "mini",
+    "invalidpassword" : "mini",
+    "emptypassword" : [],
+    "name" : "Sony vaio i5",
+    "name1" : "Dell i7 8gb",
+    "pname" : "umang",
+    "pcountry" : "dubai",
+    "pcity" : "bahrin",
+    "pcard" : "312809123",
+    "pmonth" : "May",
+    "pyear": "2025",
+    "monitor" : "Apple monitor 24"
+}

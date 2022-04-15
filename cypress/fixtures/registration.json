@@ -1,0 +1,9 @@
+{
+    "username" : "uday",
+    "password" : "bunny123",
+    "invalidusername" : "hello",
+    "invalidpassword" : "hello",
+    "emptyusername" : "    ",
+    "emptypassword" : []
+
+}
